@@ -1,4 +1,3 @@
-import pdb
 from rest_framework import serializers
 from models.user.models import User
 from serializer.cctv_serializer import CctvSerializer

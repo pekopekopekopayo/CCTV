@@ -1,8 +1,5 @@
-import pdb
 from rest_framework.test import APITestCase
 from models.cctv.models import Cctv
-
-from models.user.models import User
 
 
 class CctvViewTest(APITestCase):

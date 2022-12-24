@@ -1,4 +1,3 @@
-import pdb
 from django.db import transaction
 from django.shortcuts import get_object_or_404
 from rest_framework.response import Response
@@ -6,7 +5,6 @@ from rest_framework.decorators import api_view
 from models.cctv.models import Cctv
 from models.user.models import User
 from serializer.user_serializer import CctvSubscriptSerializer, UserSerializer
-from django.db.models import Q
 
 
 class UserView:
